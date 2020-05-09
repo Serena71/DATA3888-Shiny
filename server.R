@@ -9,7 +9,6 @@
 
 library(shiny)
 library(tidyverse)
-library(caret)
 # X_train = readRDS("gene_fs.rds")
 y = readRDS("class.rds")
 pca = readRDS("pca.rds")
